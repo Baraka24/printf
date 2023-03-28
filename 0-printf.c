@@ -43,6 +43,9 @@ int _printf(const char * const format, ...) {
 			++count;
 		}
 	}
+	ch = '\n';
+	write(1, &ch, 1);
+	count++;
 	va_end(args);
 	return count;
 }
