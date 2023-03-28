@@ -43,7 +43,7 @@ int _printf(const char *format, ...)
 		}
 	}
 	ch = '\n';
-	write(1, &ch, 1), count++;
+	write(1, &ch, 1);
 	va_end(args);
 	return (count);
 }
