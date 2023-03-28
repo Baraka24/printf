@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _printf - prints a formatted string
+ * @format: string formatter
+ *
+ * Return: the number of characters printed
+ */
 int _printf(const char * const format, ...) {
 	int c;
 	char ch;
